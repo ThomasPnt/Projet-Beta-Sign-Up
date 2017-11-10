@@ -170,7 +170,7 @@
 		<main class="footercta" role="main">
 			<div class="container">
 				<h1><strong>Ubeer</strong> <br>
-					<strong>launch </strong>product</h1>
+					product <strong>launch</strong></h1>
 					<div id="timer">
 					  <span id="days"></span>days
 					  <span id="hours"></span>hours
@@ -179,7 +179,7 @@
 					</div>
 				<div class="row">
 					<div class="col-md-12 breath text-center">
-						<a href="index.php#top" class="btn btn-success btn-lg gototop">GET EARLY ACCESS</a>
+						<a href="index.php#top" class="btn btn-success btn-lg gototop">REGISTER</a>
 					</div>
 				</div>
 			</div><! --/container -->
