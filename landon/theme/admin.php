@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="landon/theme/css/admin.css">
+    <link rel="stylesheet" href="../theme/css/admin.css">
     <meta charset="utf-8">
     <title>Admin</title>
   </head>
@@ -16,13 +16,13 @@
         if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
           $query = "INSERT INTO EmailAdresse (mail) VALUES ('$mail')";
           $bd-> query($query);
-          header('location:one-page.php');
+          header('location:index.php');
+
       } else {
         echo("$mail is not a valid email address");
       }
-       }
+    }
        $resultat = $bd->query('SELECT * FROM EmailAdresse');
-
        echo '<table id ="customers">';
        while ($donnees = $resultat->fetch())  {
        echo '<tr><td>';
@@ -30,13 +30,12 @@
        echo '</td><td>';
        ?>
 
-
        <form action='admin.php' method ='POST'>
-
        <input type='checkbox' name='suppr[]' value="<?php echo $donnees['mail']; ?>">
 
        <?php
-       echo'</td></tr>';
+       echo'</td><td>';
+       echo "</td></tr>";
        };
        echo '</table>';
        ?>
@@ -53,8 +52,10 @@
        header('location:admin.php');
          }
        }
-    $resultat->closeCursor();
-    ?>
+    $resultat->closecursor();
+       ?>
+
+
 
   </body>
 </html>

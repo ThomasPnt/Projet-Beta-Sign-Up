@@ -1,3 +1,15 @@
+
+<?php
+try
+{
+	$bd = new PDO('mysql:host=localhost;dbname=ubeer-mail;charset=utf8', 'root', 'user');
+}
+catch(Exception $e)
+{
+
+        die('Erreur : '.$e->getMessage());
+}
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,13 +47,13 @@
 
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-					<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
+					<form class="form-horizontal" role="form" action="admin.php" id="subscribeForm" method="POST">
 						<div class="form-group">
 							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
-								<input class="form-control input-lg" name="email" type="email" id="address" placeholder="Enter your email" data-validate="validate(required, email)" required="required">
+								<input class="form-control input-lg" name="mail" type="text" id="address" placeholder="Enter your email"  >
 							</div>
 							<div class="col-md-5 col-sm-4">
-								<button type="submit" class="btn btn-success btn-lg">REGISTER</button>
+								<input type="submit" name="envoyer" value="envoyer" class="btn btn-success btn-lg">
 							</div>
 						</div>
 					</form>
