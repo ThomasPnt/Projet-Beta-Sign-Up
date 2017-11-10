@@ -21,6 +21,25 @@ body{
 	color:#94a3a8;
 	}
 
+#timer {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #999;
+  letter-spacing: -1px;
+	width: 100%;
+	color: white;
+	background-color: #7897EB;
+	opacity: 0.9;
+}
+#timer span {
+  font-size: 60px;
+  color: white;
+  margin: 0 3px 0 15px;
+}
+#timer span:first-child {
+  margin-left: 0;
+}
+
 strong,b{
 	font-weight:600;
 	}
@@ -390,7 +409,7 @@ to {
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
 	border-radius:100%;
-	width: 50%;
+	width: 25%;
 }
 .clientblock p {
 	padding-left:80px;
@@ -536,6 +555,10 @@ font-size: 35px;
 }
  .breath {
 margin: 30px auto;
+}
+.clientblock img{
+	width: 12.5%;
+
 }
 
 .thumbnail img{

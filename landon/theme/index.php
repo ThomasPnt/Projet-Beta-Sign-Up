@@ -167,38 +167,19 @@
 		</div><! --/highlight Testimonials -->
 
 
-		<div class="container">
-
-		<div class="section-title">
-			<h5>Frequently Asked Questions</h5>
-		</div>
-
-		<section class="row faq breath">
-			<div class="col-md-6">
-				<h6>How does the free trial work?</h6>
-				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
-				<h6>Can I switch plans later?</h6>
-				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
-			</div><! --/col-md-6 -->
-
-			<div class="col-md-6">
-				<h6>Do I need to choose a plan now?</h6>
-				<p>No. You get the full featured, unlimited version of our service completely free for 10 days. Once you're ready to upgrade, you may choose a plan which suits your needs.</p>
-				<h6>What payment types do you accept?</h6>
-				<p>We accept payments from MasterCard, Visa, Visa Debit and American Express. We do not accept PayPal. Remember, you do not need to supply card details to start your free trial.</p>
-			</div><! --/col-md-6 -->
-		</section><! --/section faq -->
-
-	</div><! --/container -->
-
 		<main class="footercta" role="main">
 			<div class="container">
-				<h1>The Most Simple & <strong>Powerful Way</strong> <br>
-					to <strong>launch</strong> your product</h1>
-
+				<h1><strong>Ubeer</strong> <br>
+					<strong>launch </strong>product</h1>
+					<div id="timer">
+					  <span id="days"></span>days
+					  <span id="hours"></span>hours
+					  <span id="minutes"></span>minutes
+					  <span id="seconds"></span>seconds
+					</div>
 				<div class="row">
 					<div class="col-md-12 breath text-center">
-						<a href="index.html#top" class="btn btn-success btn-lg gototop">GET EARLY ACCESS</a>
+						<a href="index.php#top" class="btn btn-success btn-lg gototop">GET EARLY ACCESS</a>
 					</div>
 				</div>
 			</div><! --/container -->
@@ -207,14 +188,14 @@
 		<div class="container">
 			<section class="row breath">
 				<div class="col-md-12 footerlinks">
-					<p>&copy; 2014 BlackTie.co. All Rights Reserved</p>
+					<p>&copy; <2017></2017> Ubeer.co. All Rights Reserved</p>
 				</div>
 			</section><! --/section -->
 		</div><! --/container -->
 
 
 
-
+<script src="js/timer.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/easing.js"></script>
