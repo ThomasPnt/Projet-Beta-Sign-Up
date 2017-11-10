@@ -22,6 +22,7 @@
         echo("$mail is not a valid email address");
       }
     }
+
        $resultat = $bd->query('SELECT * FROM EmailAdresse');
        echo '<table id ="customers">';
        while ($donnees = $resultat->fetch())  {
