@@ -20,38 +20,39 @@
       } else {
         echo("$mail is not a valid email address");
       }
-    }
-    $resultat = $bd->query('SELECT * FROM EmailAdresse');
-    ?>
+       }
+       $resultat = $bd->query('SELECT * FROM EmailAdresse');
 
-    <?php
-    echo '<table>';
-    while ($donnees = $resultat->fetch())  {
-    echo '<tr><td>';
-    echo $donnees['mail'];
-    echo '</td><td>';
-    ?>
-    
-    <form action='admin.php' method ='POST'>
-    <input type='checkbox' name='Delete' value='Delete'>
+       echo '<table id ="customers">';
+       while ($donnees = $resultat->fetch())  {
+       echo '<tr><td>';
+       echo $donnees['mail'];
+       echo '</td><td>';
+       ?>
 
-    <?php
-    echo'</td></tr>';
-    };
-    echo '</table>';
-    ?>
 
-    <input type="submit" name="suppr" value="Supprimer">
-    </form>
+       <form action='admin.php' method ='POST'>
 
-    <?php
-    if(isset($_POST["Delete"])){
-    $box=$_POST['suppr'];
-    while(list($key,$val) = @each($box)){
-    $bd->query("DELETE FROM ubeer-mail WHERE mail='$val'");
-    header('location:admin.php');
-      }
-    }
+       <input type='checkbox' name='suppr[]' value="<?php echo $donnees['mail']; ?>">
+
+       <?php
+       echo'</td></tr>';
+       };
+       echo '</table>';
+       ?>
+
+       <input type="submit" name="Delete" value="Supprimer">
+       </form>
+
+       <?php
+       if(isset($_POST["Delete"])){
+       $box=$_POST['suppr'];
+       while(list($key,$val) = @each($box)){
+
+       $bd->query("DELETE FROM EmailAdresse WHERE mail='$val'");
+       header('location:admin.php');
+         }
+       }
     $resultat->closeCursor();
     ?>
 
