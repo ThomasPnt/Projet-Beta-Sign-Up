@@ -27,7 +27,7 @@
 
 	<main id="top" class="masthead" role="main">
 		<div class="container">
-			<div class="logo"> <a href="index.html#"><img src="images/logo.png" alt="logo"></a>
+			<div class="logo"> <a href="index.html#"><img src="images/logo-biere.png" alt="logo"></a>
 			</div>
 
 			<h1>Welcome at <strong>Ubeer</strong> <br>
@@ -65,7 +65,7 @@
 
 		<section class="row heroimg breath">
 			<div class="col-md-12 text-center">
-				<img src="images/logo.png" alt="flat-mockup-template">
+				<img src="images/logo-biere.png" alt="flat-mockup-template">
 			</div>
 		</section><! --/section -->
 
@@ -77,9 +77,9 @@
 		<section class="row features">
 			<div class="col-sm-6 col-md-3">
 				<div class="thumbnail">
-					<img src="images/service_01.png" alt="analytics-icon">
+					<img src="images/24h.jpg" alt="analytics-icon">
 					<div class="caption">
-						<h3>Important Feature 1</h3>
+						<h3>24/24</h3>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 				</div><! --/thumbnail -->
@@ -87,9 +87,9 @@
 
 			<div class="col-sm-6 col-md-3">
 				<div class="thumbnail">
-					<img src="images/service_02.png" alt="analytics-icon">
+					<img src="images/livraison.png" alt="analytics-icon">
 					<div class="caption">
-						<h3>Important Feature 2</h3>
+						<h3>Delivery</h3>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 				</div><! --/thumbnail -->
@@ -97,9 +97,9 @@
 
 			<div class="col-sm-6 col-md-3">
 				<div class="thumbnail">
-					<img src="images/service_03.png" alt="analytics-icon">
+					<img src="images/city.png" alt="analytics-icon">
 					<div class="caption">
-						<h3>Important Feature 3</h3>
+						<h3>Student Cities</h3>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 				</div><! --/thumbnail -->
@@ -107,9 +107,9 @@
 
 			<div class="col-sm-6 col-md-3">
 				<div class="thumbnail">
-					<img src="images/service_04.png" alt="analytics-icon">
+					<img src="images/belgium.svg" alt="analytics-icon">
 					<div class="caption">
-						<h3>Important Feature 4</h3>
+						<h3>Anywhere in Belgium</h3>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 				</div><! --/thumbnail -->
@@ -118,13 +118,17 @@
 
 
 		<div class="section-title">
-			<h2>Some of our clients</h2>
-			<h4>We work with different kind of brands</h4>
+			<h2>Our Partners</h2>
+			<h4>We work with different partners</h4>
 		</div>
 
 		<section class="row clientlogo breath">
 			<div class="col-md-12 text-center">
-				<img src="images/client-logos.png" alt="client-logos">
+				<img src="images/logo_chimay.png" alt="client-logos">
+				<img src="images/orval.jpg" alt="client-logos">
+				<img src="images/leffe.jpeg" alt="client-logos">
+				<img src="images/duvel.jpeg" alt="client-logos">
+
 			</div>
 		</section><! --/section -->
 
@@ -134,17 +138,16 @@
 		<div class="highlight testimonials">
 			<div class="container">
 				<div class="section-title">
-					<h2>What our customers said</h2>
-					<h4>Don't take our word. See our testimonials </h4>
+					<h2>About us</h2>
 				</div>
 
 				<section class="row breath">
 					<div class="col-md-6">
 						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
 						<div class="clientblock">
-							<img src="images/customer-img-1.jpg" alt=".">
+							<img src="images/johndoe.png" alt=".">
 							<p><strong>John Doe</strong> <br>
-								Founder of <a href="index.html#">Blacktie.co</a>
+								Founder of <a href="index.html#">Ubeer</a>
 							</p>
 						</div>
 					</div><! --/col-md-6 -->
@@ -152,9 +155,9 @@
 					<div class="col-md-6">
 						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
 						<div class="clientblock">
-							<img src="images/customer-img-2.jpg" alt=".">
+							<img src="images/johndoe.png" alt=".">
 							<p><strong>Richard Sommer</strong> <br>
-								CEO of <a href="index.html#">Blacktie.co</a>
+								CEO of <a href="">Ubeer</a>
 							</p>
 						</div>
 					</div><! --/col-md-6 -->
@@ -165,39 +168,6 @@
 
 
 		<div class="container">
-
-			<div class="section-title">
-				<h2>Honest pricing. No surprises.</h2>
-				<h4>No contract. No risk. No credit card required. </h4>
-			</div>
-			<section class="row breath planpricing">
-
-				<div class="col-md-4">
-					<div class="pricing color1">
-						<div class="planname">Personal</div>
-						<div class="price"> <span class="curr">$</span>14<span class="per">/MO</span></div>
-						<div class="billing">Billed Annually</div>
-					</div><! --/pricing -->
-				</div><! --/col-md-4-->
-
-				<div class="col-md-4">
-					<div class="pricing color2">
-						<div class="planname">Agency</div>
-						<div class="price"> <span class="curr">$</span>49<span class="per">/MO</span></div>
-						<div class="billing">Billed Annually</div>
-					</div><! --/pricing -->
-				</div><! --/col-md-4-->
-
-				<div class="col-md-4">
-					<div class="pricing color3">
-						<div class="planname">Enterprise</div>
-						<div class="price"> <span class="curr">$</span>99<span class="per">/MO</span></div>
-						<div class="billing">Billed Annually</div>
-					</div><! --/pricing -->
-				</div><! --/col-md-4-->
-			</section><!-- /section planpricing -->
-
-
 
 		<div class="section-title">
 			<h5>Frequently Asked Questions</h5>
